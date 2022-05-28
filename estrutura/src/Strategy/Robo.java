@@ -3,7 +3,7 @@ package Strategy;
 public class Robo {
     private Comportamento comportamento;
 
-    public void setStrategy(Comportamento comportamento) {
+    public void setComportamento(Comportamento comportamento) {
 
         this.comportamento = comportamento;
 
