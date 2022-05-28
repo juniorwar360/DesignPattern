@@ -1,6 +1,9 @@
-package Singleton;
+
 
 import Facade.Facade;
+import Singleton.SingletonEager;
+import Singleton.SingletonLazzy;
+import Singleton.SingletonLazzyHolder;
 import Strategy.Comportamento;
 import Strategy.ComportamentoAgressivo;
 import Strategy.ComportamentoDefensivo;
