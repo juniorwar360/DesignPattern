@@ -1,5 +1,6 @@
 package Singleton;
 
+import Facade.Facade;
 import Strategy.Comportamento;
 import Strategy.ComportamentoAgressivo;
 import Strategy.ComportamentoDefensivo;
@@ -58,7 +59,20 @@ public class test1 {
         robo.Mover();
         robo.Mover();
         System.out.println("--------------------------------");
+
+        // Facade
+
+        Facade facade = new Facade();
+        facade.migrarCliente("junior", "75882");
+        
+
+
     }
+
+   
+
+
+
 
 
 }
