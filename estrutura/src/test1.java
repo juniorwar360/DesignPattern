@@ -24,7 +24,7 @@ public class test1 {
         SingletonLazzyHolder lazyHolder = SingletonLazzyHolder.getInstancia();
         SingletonLazzyHolder lazyHolder1 = SingletonLazzyHolder.getInstancia();
 
-        // tests relacionados ao Design Pattern Singeton;
+        // tests relacionados ao Design Pattern  ;
 
         // Singleton 
         System.out.println("--------------------------------");
